@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<p style="font-family:Arial; color:orange; font-size: 30px;">Phishing Sites Filter</p>
+<p style="font-family:verdana; color:purple; font-size: 25px;">Plug-in to Filter & Whitelist Phishing Sites</p>
+<script  src="js/sweetalert.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script  src="js/popup.js"></script>
+<script  src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="skin/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="skin/main.css">
+<link rel="stylesheet" type="text/css" href="skin/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="skin/bootstrap-glyphicons.css">
+</head>
+<body background="./images/background.png"> 
+<div class="container header-container">
+    <div id="header">
+        
+        <div class="row">
+
+            <div class="col-xs-6">
+              
+            </div>
+
+            <div class="col-xs-6">
+                
+                <img src="./images/detective.png" alt="detective" id="detective">
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <br>
+      </div>
+</div>
+<div class="container" id="add-user-names-addresses">
+	
+	<div id="usernameform">
+		<div class="form-group">
+
+		  <input type="text" class="form-control" id="username" placeholder="Enter Username or email address to protect against login details phising">
+
+		</div>
+	</div>
+	<button class="btn btn-default" id="protect-username">Protect Username</button>
+
+	<br>
+	<br>
+	<div id="urlform">
+		<div class="form-group">
+
+		  <input type="text" class="form-control" id="url" placeholder="Enter trusted url">
+		  
+		</div>
+	</div>
+	
+	<div id="username-checkbox-list">
+
+		
+	</div>
+	<button class="btn btn-warning" id="trust-url">Add to trusted list</button>
+
+	
+</div>
+
+<div class="container" id="view-trusted-urls">
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
+
+

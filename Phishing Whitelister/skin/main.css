@@ -1,0 +1,73 @@
+body{
+
+	width:650px;
+    border-radius: 10px;
+	
+}
+
+#woman-gesturing-not-ok{
+    margin-top: 20px;
+}
+
+.alert {
+    padding: 2px !important;
+    margin-bottom: unset !important;
+}
+
+.view-trusted, .revoke-trust{
+    cursor: pointer;
+}
+
+.remove-username{
+    margin-left: 4px;
+}
+
+.badge {
+
+    padding: 2px 5px !important;
+    color: #777 !important;
+    background-color: #fff !important;
+
+}
+
+.label {
+    font-size: 12px !important;
+}
+
+
+
+
+
+.header-container{
+	
+	background-color: rgb(246, 247, 248);
+	padding-left: 12px !important; 
+	padding-bottom: 15px;
+}
+
+
+#header{
+	
+    
+    font-size: 16px;
+    height: 40px;
+    line-height: 45px;
+    
+    width: 100%;
+   
+}
+
+#popup-title{
+font-size: 40px;
+}
+
+#add-user-names-addresses{
+
+    margin: 30px 0px;
+
+}
+
+#view-trusted-urls{
+    margin-bottom:30px;
+    display:none;
+}
